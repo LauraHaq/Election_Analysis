@@ -9,30 +9,24 @@ The Colorado Board of Elections requested an audit to be performed on election r
 4. Percentage of votes each candidate won
 5. The winner of the election based on popular vote
 
-## Summary 
+## Resources
+- Data Source: election_results.csv
+- Software: Python 3.7, Visual Studio Code, 1.58.2
 
-1. Total Votes
-    - 369,711
-2. County Names
-    - Jefferson
-    - Denver
-    - Arapahoe
-3. Candidates Names
+## Summary 
+The analysis of the election show that:
+- There were "x" votes cast in the election.
+- The Candidates were:
     - Charles Casper Stockham
     - Diana DeGette
     - Raymon Anthony Doane
-4. Number and percentage of votes per county
-    - Jefferson, 38,855 votes, 10.5% of total votes
-    - Denver, 306,055 votes, 82.8% of total votes
-    - Arapahoe, 24,801 votes, 6.7% of total votes
-5. Largest County Turnout
-    - Denver
-6. Number and percentage of votes per candidate
-    - Charles Casper Stockham, 85,213 votes, 23.0% of total votes
-    - Diana DeGette, 272,892 votes, 73.8% of total votes
-    - Raymon Anthony Doane, 11,606 votes, 3.1% of votes
-7. Winner of congressional election:
-    - Diana DeGette
+- The Candidate results were:
+    - Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+    - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+    - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
+7. The winner of the election was:
+    -Diana DeGette, who received 23.0% of the the vote and 85,213 number of votes.
+ As shown snapshot of following image of my Visual Studio Code terminal of script.
 
 ![Screenshot 2021-07-16 115905](https://user-images.githubusercontent.com/86267773/125996215-e7110307-d139-456d-8205-daeb5797d55a.png)
 
