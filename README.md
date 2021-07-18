@@ -31,13 +31,13 @@ The initial analysis of the election shows that:
 ![Screenshot 2021-07-16 115905](https://user-images.githubusercontent.com/86267773/125996215-e7110307-d139-456d-8205-daeb5797d55a.png)
 
 ## Overview of Election Audit
-The election commission requested additional data to complete the audit. The previous script that was created to pull data about candidates was able to be used again to pull data about each county with new variables and key:value pairs using same code patterns. Also, this script produced a new file with results without having to run coding to get info in a terminal. The following was the addtional information needed:
+The election commission requested additional data to be analyzed for audit. The previous script that was created to pull data about candidates was used again to pull data about each county with new variables using same code patterns. The following was the addtional information needed:
 - The voter turnout for each county
 - The percentage of votes from each county out of the total count
 - The county with the highest turnout
 
 ## Audit Election Results
-The Python script using Visual Studio Code was succesful in finding in addition to the initial anaylsis above:
+The Python script using Visual Studio Code was succesful in reading the same elections results to add addtional findings to the initial anaylsis above:
 - Vote turnout
     - Jefferson had 10.5% of the total vote turnout with 38,855 votes.
     - Denver had 82.8% of the total vote turnout with 306,055 votes.
@@ -45,15 +45,15 @@ The Python script using Visual Studio Code was succesful in finding in addition 
 - The county with largest turnout:
     - Denver.
     
-Updated terminal printed using terminal code:
+Updated terminal printed with adapted script:
 
 ![printed_terminal_electionresults](https://user-images.githubusercontent.com/86267773/126052354-846273e7-5709-4fd4-9469-76ec95175c1b.png)
 
-Can also be found in own file created using script:
+Same results can also be found in shareable file using adapted script:
 ![election_results.txt](https://github.com/LauraHaq/Election_Analysis/files/6835487/election_results.txt)
 
 ## Election Audit Summary
-In addition to finding the requested information for the audit, this analysis provided addtional tools that can be used in the future. Firstly, it provides a working script that is usable on any completed election with candidates and counties listed in a readable file. Also, with some modification of variables the script can work with other demographic information to see how they voted as well. This repetitive nature is first seen in variables to create lists and dictionaries:
+In addition to finding the requested information for the audit, the overall analysis provided a tool that can be used in future election results. Firstly, it provides a working script that is usable on any completed election with any list of candidates and counties in a readable file. Also, with some modification of variables the script can work with other demographic information to analyze vote turnout as well. This repetitive nature is first seen in variables to create lists and dictionaries:
 #### Initial analysis:
     - candidate_options = []
     - candidate_votes = {}
@@ -71,4 +71,4 @@ Also in how to begin tracking results:
     - largest_countyvote = 0
     - largest_countypercentage = 0
 
-The additional information needed was found by adding the new variables into the for loops already created in the initial analysis and can be used for any readable file that is is in a csv format.
+The additional information needed was found by adding the new variables into the initial for loops and can be used for any data requested as long as it is in a readable file that is in csv or spreadsheet format.
