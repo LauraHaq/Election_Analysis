@@ -15,7 +15,7 @@ The Colorado Board of Elections requested an audit to be performed on election r
 
 ## Summary 
 The initial analysis of the election shows:
-- There were 369,711 total votes caseted in election.
+- There were 369,711 total votes casted in election.
 - The Candidates were:
     - Charles Casper Stockham
     - Diana DeGette
@@ -25,19 +25,19 @@ The initial analysis of the election shows:
     - Diana DeGette received 73.8% of the vote and 272,892 number of votes.
     - Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.
 - The winner of the election was:
-    - Diana DeGette, who received 23.0% of the the vote and 85,213 number of votes.
+    - Diana DeGette, who received 23.0% of the vote and 85,213 number of votes.
  As shown snapshot of following image of my Visual Studio Code terminal of script.
 
 ![Screenshot 2021-07-16 115905](https://user-images.githubusercontent.com/86267773/125996215-e7110307-d139-456d-8205-daeb5797d55a.png)
 
 ## Overview of Election Audit
-The election commission requested new information to be added to the project using the same data file. The previous script that was created to pull data about candidates was used again to pull data about each county with new variables using same code patterns. The following was the addtional information needed:
+The election commission requested new information to be added to the project using the same data file. The previous script that was created to pull data about candidates was used again to pull data about each county with new variables using same code patterns. The following was the additional information needed:
 - The voter turnout for each county
 - The percentage of votes from each county out of the total count
 - The county with the highest turnout
 
 ## Audit Election Results
-The Python script using Visual Studio Code was succesful in reading the same elections results to add addtional findings to the initial anaylsis above:
+The Python script using Visual Studio Code was successful in reading the same elections results to add additional findings to the initial analysis above:
 - Vote turnout
     - Jefferson had 10.5% of the total vote turnout with 38,855 votes.
     - Denver had 82.8% of the total vote turnout with 306,055 votes.
@@ -53,7 +53,7 @@ Same results can also be found in shareable file using adapted script:
 ![election_results.txt](https://github.com/LauraHaq/Election_Analysis/files/6835487/election_results.txt)
 
 ## Election Audit Summary
-In addition to finding the requested information for the audit, the overall analysis provided a tool that can be used in future election results. Firstly, it provides a working script that is usable on any completed election with any list of candidates and counties in a readable file. Also, with some modification of variables the script can work with other demographic information to analyze vote turnout as well. This repetitive nature is first seen in the variables to create lists and dictionaries:
+In addition to finding the requested information for the audit, the overall analysis provides a tool that can be used in future election results. Firstly, it provides a working script that is usable on any completed election with any list of candidates and counties in a readable file with no modifications needed. Also, with some modification of variables the script can work with other demographic information to analyze vote turnout as well. Also modification of what would be printed in the results file would be needed to accurately reflect what is begin asked. This repetitive nature is first seen in the variables to create lists and dictionaries:
 #### Initial analysis:
     - candidate_options = []
     - candidate_votes = {}
